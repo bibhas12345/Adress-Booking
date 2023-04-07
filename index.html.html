@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="adress.css">
+</head>
+
+<body>
+    <div class="head">
+        <h2>Adress Booking System</h2>
+    </div>
+    <div class="employpage">
+        <div class="formdata">
+
+            <form onsubmit="event.preventDefault();" autocomplete="off">
+
+
+                <label>Name</label>
+                <input type="text" class="empname" value="" required  placeholder="Employ Name">
+
+                <label>City</label>
+                <input type="text" class="city" value="" required placeholder="Employ city">
+
+                <label>Mobile</label>
+                <input type="text" class="mobile" value=""  required placeholder="Employ Mobile">
+
+                <label>Pin Code</label>
+                <input type="text" class="emppin" value="" required placeholder="Employ pin">
+
+                <div style="width:100%">
+                    <input type="submit" value="Submit" class="button">
+
+                </div>
+            </form>
+
+        </div>
+        
+        <div class="display_table">
+            <!-- <input type="text" id="myInput" placeholder="Search for names..." onkeyup="search()" > -->
+            <input type="text" id="searchInput" placeholder="Search by name...">
+
+              <table class=" list" id="employeeList">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Full Name</th>
+                    <th>City</th>
+                    <th>Mobile</th>
+                    <th>Pin code</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="adress.js"></script>/
+    
+</body>
+
+</html>
+

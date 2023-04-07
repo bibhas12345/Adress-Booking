@@ -1,0 +1,97 @@
+.employpage{
+    display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
+    margin: auto;
+    font-family: verdana;
+    font-size: 16px;
+    border: solid 2px #f1f1f1;
+    
+}
+.employpage .formdata{
+  width:40%;
+  padding:15px;
+}
+.employpage .display_table {
+  padding:15px;
+  width:52%;
+}
+.employpage .display_table table{
+  border:solid 1px #ccc;
+  width: 100%;
+}
+.employpage .display_table td, 
+.employpage .display_table th{
+  border-left:solid 1px #ccc;
+  border-bottom:solid 1px #ccc;
+  padding:10px 5px;
+  text-align:left;
+  font-size:13px;
+}
+.employpage .display_table td:first-child, 
+.employpage .display_table th:first-child{
+  border-left:none;
+}
+.employpage .display_table td:last-child{
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.employpage .display_table tr{
+  border-bottom:solid 1px #ccc;
+}
+.employpage .display_table tr:last-child td{
+  border-bottom:none;
+}
+
+.formdata form{
+  display:flex;
+  flex-wrap:wrap;
+  background:#ffa4a4;
+  padding:15px;
+}
+.formdata form label{
+  width:100px;
+}
+.formdata form input, .formdata label{
+  margin:10px 0;
+  padding:5px;
+} 
+.formdata form input{
+  width:200px;
+  padding:7px;
+  border-radius: 10px;
+}
+.formdata th{
+  background:#f1f1f1; 
+  font-size:14px; 
+  font-weight:bold;
+  text-align:left;
+  color: rgb(104, 56, 3);
+  /* padding: 0 2px 0 2px; */
+}
+.formdata .button{
+  background:#00dbc5;
+  border-radius: 10px;
+  padding:5px 10px;
+  font-size:20px;
+  margin:25px auto;
+  display:table;
+  color:#fff;
+}
+.formdata .button:hover{
+    background-color: rgb(1, 45, 125);
+}
+#searchInput{
+    padding: 5px;
+    border-radius: 12px;
+    margin: 3px;
+    border: 1px solid gray;
+}
+.head{
+    padding: 5px;
+    background-color: #ffa4a4;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
